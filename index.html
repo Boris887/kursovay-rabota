@@ -9,7 +9,12 @@
 <body>
 	<section class="container">
 		<div class="social-block">
-		<img src="123.png" alt="">
+			<h4>контактная информация</h4>
+			<div class="palka"></div>
+			<img src="instagram--active.png" alt="">
+			<img src="vector1.png" alt="">
+			<img src="vector2.png" alt="">
+			<img src="vector3.png" alt="">
 			</div>
 		<div class="first-scrin">
 		<div class="header">
@@ -80,8 +85,20 @@
 			</div>
 		</div>
 		<div class="mecenat">
-			<img src="contacts.png" alt="">
+			<!-- Hidden Required Fields -->
+		<input type="hidden" name="project_name" value="Site Name">
+		<input type="hidden" name="admin_email" value="admin@mail.com">
+		<input type="hidden" name="form_subject" value="Form Subject">
+		<!-- END Hidden Required Fields -->
+
+		<input type="text" name="Name" placeholder="You name..." required><br>
+		<input type="text" name="E-mail" placeholder="You E-mail..." required><br>
+		<input type="text" name="Phone" placeholder="You phone..."><br>
+		<button>Send</button>
 		</div>
 	</section>
+		<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="script.js"></script>
+
 </body>
 </html>
